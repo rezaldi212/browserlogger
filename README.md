@@ -1,6 +1,6 @@
 # Browser Logger
 
-GUI browser dengan panel logger di bawah. Merekam teks halaman + teks yang di-select user.
+GUI browser dengan panel logger di bawah. Merekam teks halaman dan teks yang di-select user.
 
 ## Install
 
@@ -26,6 +26,6 @@ python browser_logger.py
 - Auto-save ke `logs/session_YYYYMMDD_HHMMSS.log`
 - Tombol **Capture Page Text Now**, **Clear**, **Save As...**
 
-## Repository
+## License
 
-Project ini merekam aktivitas browsing dan teks halaman.
+MIT
