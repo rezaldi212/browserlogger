@@ -1,6 +1,6 @@
 # Browser Logger
 
-GUI browser dengan panel logger di bawah. Merekam teks halaman dan teks yang di-select user.
+A lightweight Qt browser with a live logging panel. It captures page text and user-selected text while browsing.
 
 ## Install
 
@@ -14,17 +14,17 @@ pip install -r requirements.txt
 python browser_logger.py
 ```
 
-## Fitur
+## Features
 
-- **Atas**: address bar + back/forward/reload + browser (QWebEngineView, Chromium)
-- **Bawah**: panel log real-time, dapat di-resize via splitter
+- Top section: address bar, back/forward/reload, and browser view (`QWebEngineView`, Chromium)
+- Bottom section: real-time log panel with resizable splitter
 - Otomatis capture:
   - `[NAV]` perubahan URL
   - `[LOAD]` status load halaman
   - `[PAGE]` seluruh visible text saat halaman selesai load
   - `[SELECT]` teks yang user highlight
-- Auto-save ke `logs/session_YYYYMMDD_HHMMSS.log`
-- Tombol **Capture Page Text Now**, **Clear**, **Save As...**
+- Auto-save to `logs/session_YYYYMMDD_HHMMSS.log`
+- Buttons: **Capture Page Text Now**, **Clear**, **Save As...**
 
 ## License
 
