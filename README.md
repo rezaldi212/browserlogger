@@ -1,6 +1,13 @@
 # Browser Logger
 
+[![Release](https://img.shields.io/github/v/release/rezaldi212/browserlogger)](https://github.com/rezaldi212/browserlogger/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
 A lightweight Qt browser with a live logging panel. It captures page text and user-selected text while browsing.
+
+## Overview
+
+Browser Logger is a small desktop app for browsing pages while recording page text, navigation events, and highlighted selections into session logs.
 
 ## Install
 
