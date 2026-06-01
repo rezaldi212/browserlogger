@@ -25,3 +25,7 @@ python browser_logger.py
   - `[SELECT]` teks yang user highlight
 - Auto-save ke `logs/session_YYYYMMDD_HHMMSS.log`
 - Tombol **Capture Page Text Now**, **Clear**, **Save As...**
+
+## Repository
+
+Project ini merekam aktivitas browsing dan teks halaman.
